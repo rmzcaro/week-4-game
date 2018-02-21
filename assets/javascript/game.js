@@ -46,12 +46,12 @@ var losses = 0;
 
 $(document).ready(function() {
 
-    // When random-button is clicked...
+    // When button is clicked...
     $("#crystal1").on("click", function() {
     // ... we generate a random number
-    var random = Math.floor(Math.random() * 10) + 1;
-// ... and then dump the random number into our random-number div.
-$("added-number").text(random);
+    var random1 = Math.floor(Math.random() * 10) + 1;
+// ... and then dump the random number into our added-number div.
+$("added-number").text(random1);
 
 });
 
